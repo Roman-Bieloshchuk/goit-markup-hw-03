@@ -129,6 +129,7 @@ img {
 .hero-container {
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 
 .hero-title {
@@ -138,8 +139,9 @@ img {
   letter-spacing: 0.02em;
   text-align: center;
   color: #fff;
-  max-width: 496px;
+  width: 496px;
   padding-top: 188px;
+  padding-bottom: 48px;
   justify-content: center;
 }
 .hero-btn {
@@ -155,8 +157,7 @@ img {
   border-radius: 4px;
   padding: 16px 32px;
   border: none;
-
-  margin-top: 48px;
+  min-width: 169px;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -185,6 +186,7 @@ img {
 
   justify-content: center;
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advantages-item {
   width: calc((100% - 3 * 24px) / 4);
@@ -209,6 +211,20 @@ img {
   margin-bottom: 120px;
   height: 104px;
   width: 264px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* -------------------------------------- */
@@ -344,8 +360,12 @@ img {
   display: flex;
 
   flex-direction: column;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .logo {
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo {
   font-weight: 700;
@@ -354,7 +374,6 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  padding-top: 100px;
 }
 
 .footer-logo .logo-part {
@@ -370,7 +389,6 @@ img {
   color: #f4f4fd;
   width: 264px;
   height: 72px;
-  padding-top: 16px;
 }
 
 /* -------------------------------------- */
