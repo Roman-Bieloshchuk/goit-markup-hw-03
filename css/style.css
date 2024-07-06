@@ -353,6 +353,7 @@ img {
 .portfolio-item-container {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
+  border-top: none;
 }
 
 /* -------------------------------------- */
@@ -374,6 +375,7 @@ img {
 }
 .logo {
   display: inline-block;
+  margin-bottom: 16px;
 }
 .footer-logo {
   font-weight: 700;
@@ -382,12 +384,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  display: inline-block;
 }
 
 .footer-logo .logo-part {
   color: #f4f4fd;
-  display: inline-block;
+
   margin-bottom: 16px;
 }
 
