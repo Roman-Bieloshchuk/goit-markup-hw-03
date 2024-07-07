@@ -373,20 +373,22 @@ img {
 }
 
 .logo .footer-logo .logo-part {
-  display: inline-block;
+  /* display: inline-block; */
 }
 .footer-logo {
+  display: inline-block;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
+  margin-bottom: 16px;
 }
 
 .footer-logo .logo-part {
   color: #f4f4fd;
-  margin-bottom: 16px;
+  /* margin-bottom: 16px; */
 }
 
 .footer-text {
@@ -398,7 +400,6 @@ img {
   color: #f4f4fd;
   width: 264px;
   height: 72px;
-  margin-top: 16px;
 }
 
 /* -------------------------------------- */
