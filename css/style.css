@@ -111,6 +111,7 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
 }
+
 .nav-link:hover,
 .nav-link:focus,
 .contacts-link:hover,
@@ -172,7 +173,7 @@ img {
 
 .advantages {
   background-color: #fff;
-  height: 345px;
+  /* height: 345px; */
   padding-top: 120px;
   padding-bottom: 120px;
 }
@@ -209,7 +210,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  margin-bottom: 120px;
+
   height: 104px;
   width: 264px;
 }
@@ -369,11 +370,9 @@ img {
 }
 
 .footer-container {
-  /* display: flex; */
-  /* flex-direction: column;
-  align-items: start; */
 }
-.logo {
+
+.logo .footer-logo .logo-part {
   display: inline-block;
   margin-bottom: 16px;
 }
@@ -388,8 +387,6 @@ img {
 
 .footer-logo .logo-part {
   color: #f4f4fd;
-
-  margin-bottom: 16px;
 }
 
 .footer-text {
@@ -401,6 +398,7 @@ img {
   color: #f4f4fd;
   width: 264px;
   height: 72px;
+  margin-top: 16px;
 }
 
 /* -------------------------------------- */
