@@ -374,7 +374,6 @@ img {
 
 .logo .footer-logo .logo-part {
   display: inline-block;
-  margin-bottom: 16px;
 }
 .footer-logo {
   font-weight: 700;
@@ -387,6 +386,7 @@ img {
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+  margin-bottom: 16px;
 }
 
 .footer-text {
