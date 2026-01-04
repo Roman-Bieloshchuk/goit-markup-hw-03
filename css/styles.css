@@ -216,7 +216,6 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  height: 104px;
   width: 264px;
 }
 
@@ -246,9 +245,7 @@ img {
 .team-list-item {
   background-color: #ffffff;
   border-radius: 0 0 4px 4px;
-  padding: 0px 0px 32px 0px;
   width: 264px;
-  height: 380px;
   box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   width: calc((100% - 3 * 24px) / 4);
@@ -317,7 +314,6 @@ img {
   border-right: 1px solid #e7e9fc;
   padding: 32px 16px;
   width: auto;
-  height: 120px;
 }
 
 .portfolio-item-subtitle {
